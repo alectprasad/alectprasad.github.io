@@ -4,96 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alect Prasad | Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            background: #444;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .section h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            font-size: 2em;
-        }
-        .about, .projects, .contact {
-            background: #f4f4f4;
-            padding: 20px;
-            border-radius: 5px;
-        }
-        .about p {
-            font-size: 1.2em;
-            line-height: 1.6em;
-        }
-        .project-item {
-            margin-bottom: 20px;
-        }
-        .project-item h3 {
-            margin-top: 0;
-        }
-        .contact form {
-            display: flex;
-            flex-direction: column;
-        }
-        .contact label {
-            margin-bottom: 5px;
-        }
-        .contact input, .contact textarea {
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact button {
-            padding: 10px 20px;
-            border: none;
-            background: #333;
-            color: #fff;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .contact button:hover {
-            background: #555;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -109,7 +20,6 @@
 </nav>
 
 <div class="container">
-
     <section id="about" class="section about">
         <h2>About Me</h2>
         <p>Hello! I'm Alect Prasad, a web developer with a passion for creating modern, responsive websites and applications. With a strong background in both front-end and back-end development, I enjoy bringing ideas to life in the browser. I strive to write clean, efficient, and maintainable code and am constantly seeking to learn and improve my skills.</p>
@@ -117,8 +27,25 @@
 
     <section id="projects" class="section projects">
         <h2>Projects</h2>
-        <p>Under Construction</p>
-        <!-- Add more projects as needed -->
+        <div class="gallery">
+            <div class="card">
+                <h2>Card Title 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+            </div>
+            <div class="card">
+                <h2>Card Title 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+            </div>
+            <div class="card">
+                <h2>Card Title 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+            </div>
+            <div class="card">
+                <h2>Card Title 4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>  
     </section>
 
     <section id="contact" class="section contact">
